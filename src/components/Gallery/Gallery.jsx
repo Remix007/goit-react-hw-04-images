@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import Loader from 'components/Loader';
 import Modal from 'components/Modal';
 import Button from 'components/Button';
-import { getImages } from '../Servises/PictureAPI';
+import { getImages } from '../Services/PictureAPI';
 
 function Gallery({
     imageName,
