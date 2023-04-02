@@ -52,10 +52,7 @@ export const App = () => {
     return response.data;
   };
 
-  // window.scrollBy({
-  //   top: window.innerHeight - 76,
-  //   behavior: 'smooth',
-  // });
+  
 
   useEffect(() => {
 
@@ -72,10 +69,7 @@ export const App = () => {
     setStatus('pending');
   }, [query, page]);
 
-  // window.scrollTo({
-  //   top: snapshot - 200,
-  //   behavior: 'smooth',
-  // });
+  
 
   return (
     <AppBox>
